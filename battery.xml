@@ -1,3 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="sensor_battery" id="61" x="145" y="207"></block>
+  <block type="multimedia_displaybmp" id="110" x="-284" y="-65">
+    <field name="BMP">9+10=21!!!!!!!!</field>
+  </block>
 </xml>
