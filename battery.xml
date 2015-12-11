@@ -1,5 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="multimedia_displaybmp" id="110" x="-284" y="-65">
-    <field name="BMP">9+10=21!!!!!!!!</field>
+  <block type="robot_delay" id="112" inline="true" x="-269" y="-102">
+    <value name="DELAY">
+      <block type="math_number" id="119">
+        <field name="NUM">50000</field>
+      </block>
+    </value>
+    <next>
+      <block type="multimedia_displaybmp" id="110">
+        <field name="BMP">9+10=21!!!!!!!!</field>
+      </block>
+    </next>
   </block>
 </xml>
